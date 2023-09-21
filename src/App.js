@@ -4,9 +4,14 @@ import BottomTab from './components/BottomTab';
 
 function App() {
   return (
-    <div className='h-[100vh] bg-pink-200 overflow-hidden'>
-   <BottomTab  />
+    <>
+    <div className='  bg-pink-200 '>
+      <div className=''>
+            <button>Open Sheet</button>
+        </div>
     </div>
+   <BottomTab  />
+    </>
   );
 }
 
